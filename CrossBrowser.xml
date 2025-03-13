@@ -1,0 +1,8 @@
+<suite name="CrossBrowserTest">
+    <test name="EdgeTest">
+        <parameter name="browser" value="edge"/>  <!-- ✅ Passing browser parameter -->
+        <classes>
+            <class name="test.CrossBrowser"/>
+        </classes>
+    </test>
+</suite>

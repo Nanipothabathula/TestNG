@@ -1,0 +1,64 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>Test</groupId>
+  <artifactId>TestNG</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>jar</packaging>
+
+  <name>TestNG</name>
+  <url>http://maven.apache.org</url>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+
+  <dependencies>
+    <!-- Selenium Java -->
+    <dependency>
+        <groupId>org.seleniumhq.selenium</groupId>
+        <artifactId>selenium-java</artifactId>
+        <version>4.29.0</version>
+    </dependency>
+
+    <!-- TestNG -->
+    <dependency>
+        <groupId>org.testng</groupId>
+        <artifactId>testng</artifactId>
+        <version>7.11.0</version>
+        <scope>test</scope>
+    </dependency>
+
+    <!-- Cucumber TestNG -->
+    <dependency>
+        <groupId>io.cucumber</groupId>
+        <artifactId>cucumber-testng</artifactId>
+        <version>7.21.1</version>
+    </dependency>
+
+    <!-- Cucumber Core -->
+    <dependency>
+        <groupId>io.cucumber</groupId>
+        <artifactId>cucumber-core</artifactId>
+        <version>7.21.1</version>
+    </dependency>
+
+    <!-- Cucumber Java -->
+    <dependency>
+        <groupId>io.cucumber</groupId>
+        <artifactId>cucumber-java</artifactId>
+        <version>7.21.1</version>
+    </dependency>
+
+    <!-- JNA (Java Native Access) to fix NoClassDefFoundError -->
+    <dependency>
+        <groupId>net.java.dev.jna</groupId>
+        <artifactId>jna</artifactId>
+        <version>5.13.0</version>
+    </dependency>
+
+  </dependencies>
+
+</project>
