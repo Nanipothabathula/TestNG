@@ -3,12 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="test.DataProvider2">
+      <class name="test.CrossBrowser2">
         <methods>
-          <include name="setup"/>
-          <include name="details" invocation-numbers="0 1"/>
+          <include name="cross"/>
         </methods>
-      </class> <!-- test.DataProvider2 -->
+      </class> <!-- test.CrossBrowser2 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -1,3 +1,4 @@
+@before
 Feature: Testing Login Functionaly
 
   Scenario Outline: Login Functionality

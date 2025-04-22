@@ -59,6 +59,11 @@
         <version>5.13.0</version>
     </dependency>
 
+    <dependency>
+    	<groupId>Selenium-TestNG</groupId>
+    	<artifactId>Appium</artifactId>
+    	<version>0.0.1-SNAPSHOT</version>
+    </dependency>
   </dependencies>
 
 </project>
